@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.about{
+   display: flex;
+   flex-direction: column;
+    padding-top: 90px;
+}
+.prod{
+    float: left;
+    width:30%;
+    padding: 25px 15px;
+    margin-left: 20px;
+    height: auto;  
+    text-align: center;
+}

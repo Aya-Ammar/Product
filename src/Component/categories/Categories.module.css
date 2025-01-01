@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.about{
+    height: 700px;
+    background-color:azure;
+    padding-top: 90px;
+}
+.cat{
+    float: left;
+    width:25%;
+    padding: 10px 20px;
+    height: auto;
+    border: .1rem solid ;
+    
+    
+   
+}
+h4{
+    font-size: .9rem;
+}

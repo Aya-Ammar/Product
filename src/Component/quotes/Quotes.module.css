@@ -1,0 +1,31 @@
+.que{
+    margin-top: 80px;
+    
+}
+.quotesgrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+.quoteitem {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+.quotetext {
+    font-style: italic;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+.quoteauthor {
+    font-size: 16px;
+    color: #555;
+    text-align: right;
+  }

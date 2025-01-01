@@ -1,0 +1,45 @@
+
+.loc{
+    background-color:#2c3e50;
+    height: 250px;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
+  }
+  .loca{
+    float: left;
+    width:50%;
+    padding: 10px 20px;
+    color: white;
+  }
+  .loca h4{
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+  .loca ul{
+    padding-left: 4.5rem;
+  }
+  .localist{
+    list-style: none;
+  }
+  .locali{
+    float: left;
+    margin-top: 10px;
+    margin-left: 40px;
+    border:.11rem solid white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    text-align: center;
+    }
+    .locali a{
+      color: white;
+    }
+    .loca p{
+      margin-top: 20px;
+      font-size: 15px;
+    }
