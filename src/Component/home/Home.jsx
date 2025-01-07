@@ -1,5 +1,5 @@
 import React from 'react'
-import useFetch from '../../assets/hooks/useFetch';
+import useFetch from '../../hooks/useFetch';
 import Loding from './../loding/Loding';
 import style from './Home.module.css'
 import { Link } from 'react-router-dom';

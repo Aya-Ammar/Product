@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './Categories.module.css'
-import useFetch from '../../assets/hooks/useFetch'
+import useFetch from '../../hooks/useFetch'
 import Loding from './../loding/Loding'
 import { Link } from 'react-router-dom';
 export default function Categories() {

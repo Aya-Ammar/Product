@@ -1,5 +1,4 @@
 import React from 'react'
-import useFetch from './../../assets/hooks/useFetch';
 import Loding from './../loding/Loding';
 import style from './Addproduct.module.css'
 export default function Addproduct() {

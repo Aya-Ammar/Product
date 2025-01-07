@@ -1,5 +1,5 @@
 import React from 'react'
-import useFetch from '../../assets/hooks/useFetch';
+import useFetch from '../../hooks/useFetch';
 import style from './Quotes.module.css'
 import Loding from '../loding/Loding';
 export default function Quotes() {

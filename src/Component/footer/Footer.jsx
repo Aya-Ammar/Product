@@ -22,16 +22,16 @@ export default function Footer() {
                     <h4 className='text-uppercase text-center'>Around the Web</h4>
                     <ul className={`${style.localist} `}>
                            <li className={`${style.locali}`} >
-                          <a href='#'> <i class="fa-brands fa-facebook-f"></i></a>
+                          <a href='#'> <i className="fa-brands fa-facebook-f"></i></a>
                             </li>
                            <li className={`${style.locali}`}>
-                           <a href='#'><i class="fa-brands fa-twitter "></i>   </a>                          
+                           <a href='#'><i className="fa-brands fa-twitter "></i>   </a>                          
                            </li>
                             <li className={`${style.locali}`}>
-                            <a href='#'><i class="fa-brands fa-linkedin-in "></i></a>
+                            <a href='#'><i className="fa-brands fa-linkedin-in "></i></a>
                             </li>
                             <li className={`${style.locali}`}>
-                            <a href='#'><i class="fa-brands fa-dribbble  "></i></a>
+                            <a href='#'><i className="fa-brands fa-dribbble  "></i></a>
                            </li>
                             </ul>
                 </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link,  useParams } from 'react-router-dom'
-import useFetch from '../../assets/hooks/useFetch';
+import useFetch from '../../hooks/useFetch';
 import style from './CategoriesDetails.module.css'
 import Loding from './../loding/Loding';
 export default function CategoriesDetails() {
