@@ -13,9 +13,9 @@ export default function Quotes() {
    <section className={`${style.que}`}>
     <div className='continer '>
       <h2 className='text-center'>Quotes</h2>
-      {error?<div className='alert alert-danger'></div>:''}
+      {error?<div className='alert alert-danger'>{error}</div>:""}
       <div className={`${style.quotesgrid}`}>
-       {data.quotes.map(quote => 
+       {data?.quotes?.map(quote => 
        <div key={quote.id} className={`${style.quoteitem}`}>
        <p className={`${style.quotetext}`}>{quote.quote}</p>
        <p className={`${style.quoteauthor}`}>{quote.author}</p>

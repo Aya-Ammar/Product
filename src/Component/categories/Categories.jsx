@@ -17,11 +17,11 @@ export default function Categories() {
       <div className="text-center">
               <h2 className='text-uppercase'>Categories</h2>
               {error?<div className='alert alert-danger'>{error}</div>:''}
-                        {data.map(catog=>
-                          <div key={catog.slug} className={`${style.cat}`}>
+                        {data.map((catog,index)=>(
+                          <div key={index} className={`${style.cat}`}>
                           <h4>{catog.name}</h4> 
                           <Link to={`/categories/${catog.name}`}>Details</Link>
-                          </div>)}     
+                          </div>))}     
           </div>  
       </div>
     </section>

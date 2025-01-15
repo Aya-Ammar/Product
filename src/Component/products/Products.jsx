@@ -18,7 +18,7 @@ export default function Products() {
            <div className='text-center'>
            <h2 className='text-uppercase '>Products</h2>
             {error?<div className='alert alert-danger'>{error}</div>:''}
-            {data.products.map(pro=>
+            {data?.products?.map(pro=>
               <div key={pro.id} className={`${style.prod}`}>
               <h4>{pro.title}</h4>
               <div><img src={pro.thumbnail}/>

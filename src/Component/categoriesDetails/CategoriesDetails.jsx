@@ -17,7 +17,7 @@ export default function CategoriesDetails() {
         <div className={`container `}>
             <h2 className={`text-center `}>{name} Products </h2>
             {error?<div className='alert alert-danger'>{error}</div>:''}
-            {data.products.map(product =>
+            {data?.products?.map(product =>
                 <div key={product.id} className={`${style.prod}`}>
                     <h4>{product.title}</h4>
                     <div><img src={product.thumbnail}/></div>
